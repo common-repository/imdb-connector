@@ -1,0 +1,419 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: IMDb Connector\n"
+"POT-Creation-Date: 2018-01-08 04:52+0700\n"
+"PO-Revision-Date: 2017-09-18 23:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: imdb-connector.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/settings-page.php:51
+msgid "All settings have been successfully resetted to default."
+msgstr ""
+
+#: admin/settings-page.php:64
+msgid "The settings have been successfully saved."
+msgstr ""
+
+#: admin/settings-page.php:76
+msgid "Donate"
+msgstr ""
+
+#: admin/settings-page.php:84
+msgid "Donate via PayPal"
+msgstr ""
+
+#: admin/settings-page.php:88
+msgid "optional"
+msgstr ""
+
+#: admin/settings-page.php:104
+msgid "API key"
+msgstr ""
+
+#: admin/settings-page.php:118
+msgid "Enter own API key..."
+msgstr ""
+
+#: admin/settings-page.php:122
+msgid "How to get your free API key"
+msgstr ""
+
+#: admin/settings-page.php:126
+msgid ""
+"IMDb Connector requires an API key to work. A default key has already been "
+"implemented in this version, and IMDb Connector should work just fine. If it "
+"does not, please get your free private API key and enter it in the input "
+"field above."
+msgstr ""
+
+#: admin/settings-page.php:142
+msgid "Caching"
+msgstr ""
+
+#: admin/settings-page.php:151
+msgid "Movie details and posters"
+msgstr ""
+
+#: admin/settings-page.php:157
+msgid "Only movie details"
+msgstr ""
+
+#: admin/settings-page.php:162 widgets/imdb-connector-movie.php:268
+msgid "Off"
+msgstr ""
+
+#: admin/settings-page.php:167
+#, php-format
+msgid "Delete cached movies (%s)"
+msgstr ""
+
+#: admin/settings-page.php:181
+msgid "Loading..."
+msgstr ""
+
+#: admin/settings-page.php:186
+msgid "All cached movies have been deleted."
+msgstr ""
+
+#: admin/settings-page.php:191
+#, php-format
+msgid "The cache could not be deleted. Please refer to the %s."
+msgstr ""
+
+#: admin/settings-page.php:196
+msgid ""
+"Allows IMDb Connector to cache movie details and posters locally for faster "
+"access (recommended)."
+msgstr ""
+
+#: admin/settings-page.php:201
+msgid ""
+"Caching has been disabled because the following directory does not exist<br /"
+">and could not be created:"
+msgstr ""
+
+#: admin/settings-page.php:213
+msgid "Cache location"
+msgstr ""
+
+#: admin/settings-page.php:220
+msgid "As files on the server"
+msgstr ""
+
+#: admin/settings-page.php:223
+msgid "In MySQL database (recommended)"
+msgstr ""
+
+#: admin/settings-page.php:227
+#, php-format
+msgid ""
+"Defines where IMDb Connector stores the cached information. Movie posters "
+"are always stored in the plugin's <a href=\"%s\" target=\"_blank\">cache "
+"directory</a>."
+msgstr ""
+
+#: admin/settings-page.php:236
+msgid "Plot type"
+msgstr ""
+
+#: admin/settings-page.php:244
+msgid "Short plot"
+msgstr ""
+
+#: admin/settings-page.php:248
+msgid "Full plot"
+msgstr ""
+
+#: admin/settings-page.php:264
+msgid ""
+"Determines whether the <code>plot</code> variable should store the short or "
+"the full plot provided."
+msgstr ""
+
+#: admin/settings-page.php:271
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/settings-page.php:275
+#, php-format
+msgid "To easily use %s in your posts, you can generate them here:"
+msgstr ""
+
+#: admin/settings-page.php:281
+msgid "Enter movie title or IMDb ID..."
+msgstr ""
+
+#: admin/settings-page.php:286
+msgid "Enter the movie title or IMDb ID of the movie."
+msgstr ""
+
+#: admin/settings-page.php:320
+msgid "Select a movie detail"
+msgstr ""
+
+#: admin/settings-page.php:334
+msgid "Movie detail you would like to display."
+msgstr ""
+
+#: admin/settings-page.php:343
+msgid "Generate shortcode"
+msgstr ""
+
+#: admin/settings-page.php:350
+msgid "Copy the following shortcode and insert it in your post:"
+msgstr ""
+
+#: admin/settings-page.php:367
+msgid "Auto delete"
+msgstr ""
+
+#: admin/settings-page.php:371
+#, php-format
+msgid "Deletes cache %s"
+msgstr ""
+
+#: admin/settings-page.php:376
+msgid "never"
+msgstr ""
+
+#: admin/settings-page.php:380
+#, php-format
+msgid "every %s hours"
+msgstr ""
+
+#: admin/settings-page.php:384 admin/settings-page.php:388
+#, php-format
+msgid "every %s days"
+msgstr ""
+
+#: admin/settings-page.php:392 admin/settings-page.php:396
+#, php-format
+msgid "every %s months"
+msgstr ""
+
+#: admin/settings-page.php:411
+msgid ""
+"Automatically deletes all cached files (database and files) to keep the "
+"movie data up to date."
+msgstr ""
+
+#: admin/settings-page.php:418
+msgid "Deactivation actions"
+msgstr ""
+
+#: admin/settings-page.php:425
+msgid "Delete MySQL cache"
+msgstr ""
+
+#: admin/settings-page.php:429
+msgid "Delete cached movie detail files"
+msgstr ""
+
+#: admin/settings-page.php:433
+msgid "Delete cached poster files"
+msgstr ""
+
+#: admin/settings-page.php:437
+msgid "Delete plugin settings"
+msgstr ""
+
+#: admin/settings-page.php:449
+msgid "Actions being executed when you deactivate IMDb Connector."
+msgstr ""
+
+#: admin/settings-page.php:456
+msgid "Log errors"
+msgstr ""
+
+#: admin/settings-page.php:468
+#, php-format
+msgid "Report errors in %s"
+msgstr ""
+
+#: admin/settings-page.php:472
+#, php-format
+msgid ""
+"If activated, IMDb Connector will add all errors it might encounter to the "
+"debug file located under <code>/wp-content/debug.log</code>. You must have "
+"<code>WP_DEBUG</code> and <code>WP_DEBUG_LOG</code> constants activated for "
+"this. <a href=\"%s\" target=\"_blank\">Click here to learn how</a>."
+msgstr ""
+
+#: admin/settings-page.php:484
+msgid "Save Changes"
+msgstr ""
+
+#: admin/settings-page.php:490
+msgid "Reset to Default Settings"
+msgstr ""
+
+#: admin/settings-page.php:496
+msgid ""
+"Found an error? Help to make IMDb Connector better by <a href=\"https://"
+"wordpress.org/support/plugin/imdb-connector#new-post\" target=\"_blank"
+"\">quickly reporting the bug</a>."
+msgstr ""
+
+#: admin/settings-page.php:501
+msgid "Do you really want to reset all settings wit the default values?"
+msgstr ""
+
+#: classes/movies.php:89
+#, php-format
+msgid "Cache directory \"%s\" could not be created."
+msgstr ""
+
+#: classes/movies.php:113 classes/movies.php:153
+#, php-format
+msgid ""
+"The requested movie \"%s\" could not be found. Please make sure the movie "
+"title is the original movie title and/or check your spelling."
+msgstr ""
+
+#: classes/movies.php:237
+#, php-format
+msgid "The poster of the movie \"%s\" could not be saved on your server."
+msgstr ""
+
+#: includes/hooks.php:98
+msgid "Settings"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:13 widgets/imdb-connector-movie.php:131
+msgid "IMDb Connector movie"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:15
+msgid "Displays a specific movie and its details."
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:57
+#, php-format
+msgid ""
+"Oops! It looks like your API key for IMDb Connector has expired. <a href=\"%s"
+"\" target=\"_blank\">Click here</a> to learn how to get one for free and "
+"implement it."
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:194
+msgid "Widget title"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:196
+msgid "Enter widget title..."
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:201
+msgid "Movie title or IMDb-ID"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:203
+msgid "Enter movie title or ID..."
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:210
+msgid "Show movie title"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:215
+msgid "Movie title position"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:222
+msgid "Top"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:227
+msgid "Below poster"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:232
+msgid "Below plot"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:237
+msgid "Bottom"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:245
+msgid "Show poster"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:251
+msgid "Poster width"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:258
+msgid "Poster height"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:263
+msgid "Poster link"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:271
+msgid "To cover file"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:274
+msgid "To movie on IMDb.com"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:277
+msgid "Custom"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:285
+msgid "Custom URL"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:287
+msgid "Enter custom URL..."
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:294
+msgid "Show plot"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:298
+msgid "Bottom text"
+msgstr ""
+
+#: widgets/imdb-connector-movie.php:299
+msgid "Enter text that will be displayed in the widget bottom..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "IMDb Connector"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.koljanolte.com/wordpress/plugins/imdb-connector/documentation/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple plugin that allows you to easily fetch movie"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kolja Nolte"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.koljanolte.com"
+msgstr ""

@@ -1,0 +1,46 @@
+/*
+ * Developed by: Kolja Nolte
+ * Email: kolja.nolte@gmail.com
+ * Website: https://www.koljanolte.com
+ * PGP key: https://goo.gl/Bb4Ku2
+ *
+ * This application is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version as long as you give credits to the core developer(s).
+ * See gnu.org for more.
+ *
+ * @package IMDb Connector
+ */
+
+/**
+ * Widget styles
+ */
+
+.imdb-connector.widget .row {
+   margin-bottom: 20px;
+}
+
+.imdb-connector.widget .row .field-title {
+   margin-bottom: 10px;
+}
+
+.imdb-connector.widget .row .info {
+   color:  #999;
+   cursor: pointer;
+   float:  right;
+}
+
+.imdb-connector.widget .row textarea {
+   min-height: 130px;
+   resize:     vertical;
+   width:      100%;
+}
+
+.imdb-connector.widget .row .note {
+   color:      #999;
+   font-size:  12px;
+   font-style: italic;
+   margin-top: 5px;
+   text-align: justify;
+}

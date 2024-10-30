@@ -1,0 +1,101 @@
+/*
+ * Developed by: Kolja Nolte
+ * Email: kolja.nolte@gmail.com
+ * Website: https://www.koljanolte.com
+ * PGP key: https://goo.gl/Bb4Ku2
+ *
+ * This application is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version as long as you give credits to the core developer(s).
+ * See gnu.org for more.
+ *
+ * @package IMDb Connector
+ */
+
+/**
+ * Settings page
+ */
+
+#imdb-connector-settings .fa {
+   margin-right: 7px;
+}
+
+#imdb-connector-settings h2 {
+   margin-bottom: 30px;
+}
+
+#imdb-connector-settings input[type="radio"] {
+   margin-left: 10px;
+}
+
+#imdb-connector-settings input[type="radio"].first {
+   margin-left: 0 !important;
+}
+
+#imdb-connector-settings .message {
+   font-size:   12px;
+   font-weight: bold;
+}
+
+#imdb-connector-settings .message.success {
+   color: #4cbe83;
+}
+
+#imdb-connector-settings .message.error {
+   color: #e75a54;
+}
+
+#imdb-connector-settings .radio-description {
+   font-size: 12px;
+}
+
+#imdb-connector-settings .optional {
+   color: #777;
+}
+
+#imdb-connector-settings #row-donate #donate-button {
+   bottom:          5px;
+   position:        relative;
+   text-decoration: none !important;
+}
+
+#imdb-connector-settings #allow-caching-row #invalid-directory .message {
+   margin-bottom: 10px;
+}
+
+#imdb-connector-settings #delete-cache-container {
+   height:     30px;
+   margin-top: 10px;
+}
+
+#imdb-connector-settings #delete-cache-container #delete-cache {
+   margin-right: 10px;
+}
+
+#imdb-connector-settings #delete-cache-container #delete-cache-loading-icon {
+   position: relative;
+   top:      5px;
+}
+
+#imdb-connector-settings #row-shortcode-generator #shortcode-copy-to-clipboard {
+   margin-left: 10px;
+}
+
+#imdb-connector-settings #movie-list {
+   height: 80px;
+   resize: vertical;
+   width:  50%;
+}
+
+#imdb-connector-settings #movie-list.expanded {
+   height: 200px;
+}
+
+#imdb-connector-settings .submit-area {
+   margin-top: 25px;
+}
+
+#imdb-connector-settings .submit-area .button-primary {
+   margin-right: 10px;
+}
